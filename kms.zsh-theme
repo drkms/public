@@ -1,7 +1,6 @@
 local ret_status="%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ %s)"
 
-export PROMPT="%B%{$fg[yellow]%}%T%{$reset_color%}:%B%{$fg[blue]%}$(whoami)@$(hostname)%b%{$reset_color%}:%B%{$fg[cyan]%}%~:: %b%{$reset_color%}"
-
+export PROMPT="%B%{$fg[blue]%}%T%{$reset_color%}:%B%{$fg[green]%}$USER@%M%b%{$reset_color%}:%B%{$fg[cyan]%}%~:: %b%{$reset_color%}"
 export RPROMPT='${ret_status}%{$fg_bold[green]%}%p %{$fg[cyan]%}%c %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%} % %{$reset_color%}'
 
 alias l="ls -la"
