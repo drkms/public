@@ -7,7 +7,7 @@ alias l="ls -la"
 alias sue="sudo emacs -nw"
 alias e="emacs -nw"
 
-#export RPROMT=''
+export RPROMT=''
 
 ZSH_THEME_GIT_PROMPT_PREFIX="git:(%{$fg[red]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
